@@ -136,20 +136,20 @@ curl http://localhost:4000/api/employees
 
 ### **8. Tech Stack Used**
 
-#Frontend:#
+##Frontend:##
 `HTML`
 `CSS`
 `Vanilla JavaScript`
 `Fetch API`
 
-#Backend:#
+##Backend:##
 `Node.js`
 `Express.js`
 `mysql2 (promise API)`
 `body-parser`
 `cors`
 
-#Database:#
+##Database:##
 `MySQL`
 `MySQL Workbench (for viewing tables)`
 
