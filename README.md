@@ -161,8 +161,11 @@ curl http://localhost:4000/api/employees
 ![Employee](docs/B.png)
 **Assigning a task to a Employee:**
 ![Employees](docs/C.png)
-**Changing the assigned task to a different employee or unassigning the task**
+**Changing the assigned task to a different employee or unassigning the task:**
 ![Employees](docs/D.png)
+
+### ***10. Assumptions***
+* wjfnwojfn f kjwnfjkw
 
 
 
