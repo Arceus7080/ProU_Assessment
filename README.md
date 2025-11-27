@@ -165,8 +165,23 @@ curl http://localhost:4000/api/employees
 ![Employees](docs/D.png)
 
 ### ***10. Assumptions***
-* wjfnwojfn f kjwnfjkw
 
+* Application is intended to run locally for the assessment.
+* No user authentication is required.
+* `PUT /api/tasks/:id` updates the entire task, not partial fields.
+* The database user `prou_user` is only for local development.
+* Simple, minimalistic UI is acceptable per assignment requirements.
 
+### ***11. Bonus Features Implemented***
+
+* Assign / Unassign tasks to employees directly from UI.
+* Fully responsive, clean frontend.
+* `.env.example` + `migration.sql` for quick setup.
+* clean folder structure.
+* System design diagram included.
+* ER Diagram included.
+* Safe error handling in frontend and backend.
+
+<div style="text-align: center;">Thank You</div>
 
 
