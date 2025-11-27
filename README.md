@@ -27,7 +27,7 @@ The UI is intentionally built in **plain HTML, CSS, and JavaScript** (no framewo
 ### System Design  
 Frontend (Browser) → Backend (Node.js/Express) → MySQL (Workbench)
 
-![System Architecture](docs/system.png)
+![System Architecture](docs/System.png)
 
 ---
 
