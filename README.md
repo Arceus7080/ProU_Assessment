@@ -71,7 +71,7 @@ mysql -u root -p prou_db < backend/migration.sql
 
 Duplicate .env.example → rename it to .env, then update values if needed:
 
-```js
+```javascript
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=prou_user
@@ -152,6 +152,17 @@ curl http://localhost:4000/api/employees
 **Database:**
 `MySQL`
 `MySQL Workbench (for viewing tables)`
+
+### **9. Demo**
+
+**Frontend:**
+![frontend](docs/A.png)
+**Adding an Employee:**
+![Employee](docs/B.png)
+**Assigning a task to a Employee:**
+![Employees](docs/C.png)
+**Changing the assigned task to a different employee or unassigning the task**
+![Employees](docs/D.png)
 
 
 
