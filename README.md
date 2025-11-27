@@ -182,8 +182,9 @@ curl http://localhost:4000/api/employees
 * ER Diagram included.
 * Safe error handling in frontend and backend.
 
-<p align="center">
-Thank you
+<p align="center"><b>
+  Thank you
+</b>
 </p>
 
 
