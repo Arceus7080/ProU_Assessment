@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Employee Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+        <div class="logo-box">
+        <span class="logo-text">P</span>
+  </div>
+    <h1>ProU Technology</h1>
+    </header>
+    <h2 class="page-title">Employee Task Manager</h2>
+    <main>
+      <section class="panel" id="employees">
+        <h2>Employees</h2>
+        <form id="empForm">
+          <input id="empName" placeholder="Name" required />
+          <input id="empEmail" placeholder="Email" />
+          <button type="submit">Add Employee</button>
+        </form>
+        <ul id="empList"></ul>
+      </section>
+
+      <section class="panel" id="tasks">
+        <h2>Tasks</h2>
+        <form id="taskForm">
+          <input id="taskTitle" placeholder="Title" required />
+          <input id="taskDesc" placeholder="Description" />
+          <select id="taskEmp"><option value="">Unassigned</option></select>
+          <button type="submit">Add Task</button>
+        </form>
+        <ul id="taskList"></ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+    <b><p>© 2025 ProU Assessment — Employee Task Manager</p></b>
+    <b><p>Submited by Baivabb Das (22BCE20518)</p></b>
+    <strong><p>Email Id: <a href="mailto:baivabbd@gmail.com" style="color: black;">baivabbd@gmail.com</a></p></strong>
+    <strong><p>GitHub: <a href="https://github.com/Arceus7080" style="color: black;">Arceus7080</a></p></strong>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+---
+
+### `.gitignore`
+```gitignore
+# Node
+node_modules/
+package-lock.json
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build / logs
+npm-debug.log
