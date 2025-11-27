@@ -59,7 +59,7 @@ GRANT ALL PRIVILEGES ON prou_db.* TO 'prou_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-## 2. Run migrations
+### **2. Run migrations**
 
 Run the following command in your terminal:
 
@@ -67,7 +67,7 @@ Run the following command in your terminal:
 mysql -u root -p prou_db < backend/migration.sql
 ```
 
-## 3. Configure environment
+### **3. Configure environment**
 
 Duplicate .env.example → rename it to .env, then update values if needed:
 
@@ -79,5 +79,80 @@ DB_PASSWORD=prou_pass
 DB_NAME=prou_db
 PORT=4000
 ```
+### **4. Start backend**
+
+```bash
+cd backend
+npm install
+npm start
+```
+The backend will start at:
+
+```arduino
+http://localhost:4000
+```
+
+### **5. Open frontend**
+
+Option A (Direct)
+
+Open this file in any browser:
+
+```bash
+frontend/index.html
+```
+
+Option B (Recommended for CORS-free testing)
+
+Serve frontend via a lightweight static server:
+
+```bash
+npx http-server frontend -p 5500
+```
+
+Then open:
+
+```bash
+http://localhost:5500
+```
+
+### **6. Test API manually**
+
+```bash
+curl http://localhost:4000/api/employees
+```
+
+### **7. API Endpoints**
+
+`- GET  /api/employees`
+`- POST /api/employees {name,email}`
+`- PUT  /api/employees/:id`
+`- DELETE /api/employees/:id`
+
+`- GET  /api/tasks`
+`- POST /api/tasks {title,description,employee_id,status}`
+`- PUT  /api/tasks/:id`
+`- DELETE /api/tasks/:id`
+
+### **8. Tech Stack Used**
+
+#Frontend:#
+`HTML`
+`CSS`
+`Vanilla JavaScript`
+`Fetch API`
+
+#Backend:#
+`Node.js`
+`Express.js`
+`mysql2 (promise API)`
+`body-parser`
+`cors`
+
+#Database:#
+`MySQL`
+`MySQL Workbench (for viewing tables)`
+
+
 
 
