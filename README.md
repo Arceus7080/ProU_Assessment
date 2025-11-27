@@ -148,7 +148,8 @@ curl http://localhost:4000/api/employees
 `mysql2 (promise API)`
 `body-parser`
 `cors`
-**#Database:**
+
+**Database:**
 `MySQL`
 `MySQL Workbench (for viewing tables)`
 
